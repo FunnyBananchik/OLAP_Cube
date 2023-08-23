@@ -1,0 +1,381 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c2bf9e11-85fc-45e8-b383-7e1bf48cdbab" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Location Inc</ID>
+  <Name>Dim_Место</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2478" scrolltop="-4001" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8890" y="10668" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="location_Inc" left="-234" top="593" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3895" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000370f00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_location_Inc" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2478</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4001</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-234</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>593</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="181">
+            <Shape Id="ID Местоположения" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID Местоположения" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Координаты" Expanded="false">
+              <Attributes>
+                <Attribute Id="Координаты" />
+              </Attributes>
+              <Position x="251" y="20" />
+            </Shape>
+            <Shape Id="Пересечение Улиц" Expanded="false">
+              <Attributes>
+                <Attribute Id="Пересечение Улиц" />
+              </Attributes>
+              <Position x="482" y="20" />
+            </Shape>
+            <Shape Id="Район" Expanded="false">
+              <Attributes>
+                <Attribute Id="Район" />
+              </Attributes>
+              <Position x="713" y="20" />
+            </Shape>
+            <Shape Id="Округ" Expanded="false">
+              <Attributes>
+                <Attribute Id="Округ" />
+              </Attributes>
+              <Position x="945" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="63e9061c-95dd-4480-afbd-ee71364dd46a">
+    <DataSourceViewID>Dereberia TM</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b33e96f5-830d-4948-91d5-a4be76d63c0f">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="58196c0f-e1df-4fc6-9d88-11653137934c">
+      <ID>ID Местоположения</ID>
+      <Name>ID Местоположения</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2faf3402-eccd-4bb7-8a65-dbbf4c1a30fc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c1d7a8aa-9db6-429a-84ae-7f30d5aec22d">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>ID_местоположения</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d5ff5590-1f0d-4434-a99c-14684a8a6fe1">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f4bb572a-a04e-4da6-9523-62e3153af7d4">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>ID_местоположения</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="aef0e5b8-3de0-462a-becb-043e179f390d">
+          <AttributeID>Координаты</AttributeID>
+          <Name>Координаты</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="75e974c8-2778-443c-afed-c2874f0863ec">
+        <DataType>Integer</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="39cb4997-864f-4542-ba3e-08462f18027e">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>ID_местоположения</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="367f7ee7-e1ae-4e70-b261-6b0a7da79233">
+      <ID>Округ</ID>
+      <Name>Округ</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="788397a3-95e1-45e5-93b9-ed7355bdebc8">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a842a31f-2c9b-48b7-a5f3-5f3d694f99d4">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Округ</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="2955fbb8-d0e6-4aa0-bd21-bd4bd7047909">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e9fcc02d-2e48-4bc1-a246-fced98fef9b2">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>Округ</ColumnID>
+        </Source>
+      </NameColumn>
+      <ValueColumn dwd:design-time-name="f124958e-fd04-4eaf-8e5a-ebdbf37772e5">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ac0d8c23-d90b-44ef-9507-8c063db9eccd">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>Округ</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8377075a-8ca7-4578-8312-ef0b2d89d8a4">
+      <ID>Пересечение Улиц</ID>
+      <Name>Пересечение Улиц</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="14dd58aa-0eac-4df4-8bf0-b7a0001408d6">
+          <DataType>WChar</DataType>
+          <DataSize>58</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f4ae134-f69e-4d4c-bc9f-51b28e43670e">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Пересечение_x0020_улиц</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="08062be5-6bb0-40e4-b62b-fd619e62ccf0">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bcdb3bea-b2f8-44a6-b018-ee25c6ae57df">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Район</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="fc654606-4998-42ef-b656-04c158ffa73c">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad5536f3-f31a-4dcc-923a-b3455d2d0443">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Округ</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="2d76c08c-137a-4850-b78b-4deb23bcb404">
+        <DataType>WChar</DataType>
+        <DataSize>58</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e86c6581-7e6d-4e3b-a914-d016b8473d7d">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>Пересечение_x0020_улиц</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9c9f6a56-863e-4ec3-8899-9d9498142d1f">
+          <AttributeID>Район</AttributeID>
+          <Name>Район</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn dwd:design-time-name="18fedb29-512b-4c9e-b61b-3a67d48b5a01">
+        <DataType>WChar</DataType>
+        <DataSize>58</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3c0fb407-5d1f-4c09-a674-9123d7b5c4e8">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>Пересечение_x0020_улиц</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2c9a5f07-4838-4f61-b83a-4f4d19d3bc1d">
+      <ID>Район</ID>
+      <Name>Район</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="813e8ee7-f89d-4517-9e84-e24f67a52806">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2ea4932a-a918-42e4-8c23-6464c8be58aa">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Район</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="8a4ae6d0-ed97-4425-bfcc-bbb46c2a54e5">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47f12c7c-c685-4156-b7da-051bf4141c94">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Округ</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e04d7b53-d4e1-420e-9396-f6f43644a872">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5e5e887d-2d2a-4b47-84e6-cd131bd58f9d">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>Район</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f93664a0-5e75-4e24-873f-a2de2f82cfbd">
+          <AttributeID>Округ</AttributeID>
+          <Name>Округ</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn dwd:design-time-name="081f815a-56f8-4cf7-846f-a5f2f1bfe058">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="74e843ed-f8d4-4132-97e0-ee82cbb56554">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>Район</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7a35c649-1ba0-4ae1-a9af-a18b7ecb82b0">
+      <ID>Координаты</ID>
+      <Name>Координаты</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="88a7757f-9a6c-4419-9b92-4fd4cabdd325">
+          <DataType>WChar</DataType>
+          <DataSize>41</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8bbfe19b-b9d9-47e0-83ff-a6e30482c646">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Координаты</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="aad25960-4e95-42ea-aca3-1083016f941a">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b39e3335-502e-46ab-9273-c2525f4d246c">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Округ</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="1cfc1a51-6d86-4ae3-9804-d108082fd7ed">
+          <DataType>WChar</DataType>
+          <DataSize>58</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a4e674ae-90d6-4582-9501-f2510b2a4cb4">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Пересечение_x0020_улиц</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="74e11c22-b1ab-40a4-a150-6af162afea99">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="888b5ee6-a1ae-4f00-8940-76bfb01033a8">
+            <TableID>dbo_location_Inc</TableID>
+            <ColumnID>Район</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9e7b55ef-12bf-4bfc-920c-292a1501809d">
+        <DataType>WChar</DataType>
+        <DataSize>41</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="91f2ceff-e97c-4f88-b517-d3587020b95e">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>Координаты</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ed4d497e-b61b-452e-ae23-283f136fe7e3">
+          <AttributeID>Пересечение Улиц</AttributeID>
+          <Name>Пересечение Улиц</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn dwd:design-time-name="86538033-d5c6-44f1-9bdb-8f5b46c667e3">
+        <DataType>WChar</DataType>
+        <DataSize>41</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="95a47410-922b-42f9-8c4d-e487a9c2ea25">
+          <TableID>dbo_location_Inc</TableID>
+          <ColumnID>Координаты</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="5136a9e9-6856-4351-9479-e14442ca2b1e">
+      <ID>Иерархия</ID>
+      <Name>Место</Name>
+      <Levels>
+        <Level dwd:design-time-name="4be79d54-5f00-49e4-b138-a6de11ef785f">
+          <ID>Округ</ID>
+          <Name>Округ</Name>
+          <SourceAttributeID>Округ</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1301f3a8-e904-4c24-af59-18cb3ff80437">
+          <ID>Район</ID>
+          <Name>Район</Name>
+          <SourceAttributeID>Район</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="708686ea-bb20-4b73-8fd5-daf3cdcf91dd">
+          <ID>Пересечение Улиц</ID>
+          <Name>Пересечение Улиц</Name>
+          <SourceAttributeID>Пересечение Улиц</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2e852e88-8aad-4b29-8ca5-4da88a55fd2b">
+          <ID>Координаты</ID>
+          <Name>Координаты</Name>
+          <SourceAttributeID>Координаты</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,375 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1f571ad8-9d23-4409-af48-7211d3aadc32" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Incident</ID>
+  <Name>Dim_Тип</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2107" scrolltop="-4001" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8890" y="10668" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Incident" left="-149" top="254" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4636" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00001c1200006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Incident" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2107</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4001</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-149</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>254</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="223">
+            <Shape Id="ID Инцидента" Expanded="false">
+              <Attributes>
+                <Attribute Id="ID Инцидента" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Описание Инцидента" Expanded="false">
+              <Attributes>
+                <Attribute Id="Описание Инцидента" />
+              </Attributes>
+              <Position x="303" y="20" />
+            </Shape>
+            <Shape Id="Подкатегория Инцидента" Expanded="false">
+              <Attributes>
+                <Attribute Id="Подкатегория Инцидента" />
+              </Attributes>
+              <Position x="587" y="20" />
+            </Shape>
+            <Shape Id="Категория Инцидента" Expanded="false">
+              <Attributes>
+                <Attribute Id="Категория Инцидента" />
+              </Attributes>
+              <Position x="871" y="20" />
+            </Shape>
+            <Shape Id="Код Инцидента" Expanded="false">
+              <Attributes>
+                <Attribute Id="Код Инцидента" />
+              </Attributes>
+              <Position x="1155" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8009da4c-2cb2-49bd-a4ef-f7ae76fe8fb4">
+    <DataSourceViewID>Dereberia TM</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="f4c9418a-900c-4acd-a0e5-dff5ed2b5701">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="584f6506-7b30-4abf-a061-33a24d28ec24">
+      <ID>ID Инцидента</ID>
+      <Name>ID Инцидента</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc8917cb-cd9c-46b2-862c-f448eaa5dc35">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c53444f-da38-40a5-99be-3206e9c374d4">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>ID_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e0d89f34-da51-4bfc-acfc-b6deb72f1413">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b6ec7b99-d902-41ec-9125-d68a88df632b">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>ID_x0020_инцидента</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="dfabefa9-2de8-495e-8a09-0ea3b7fce9a3">
+          <AttributeID>Описание Инцидента</AttributeID>
+          <Name>Описание Инцидента</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="765ac36b-2676-4cb3-8afa-74f8a0b81dd2">
+        <DataType>Integer</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="569bb2d0-73db-4110-b7a5-d211db8e2292">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>ID_x0020_инцидента</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2666f936-206b-4c94-a231-d4b1a93a43ae">
+      <ID>Код Инцидента</ID>
+      <Name>Код Инцидента</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="476db652-fcb5-4f49-82ed-7e47f10fb830">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="131aae9c-7c4d-4dec-97d8-89bc294356b2">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Код_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c22072a5-e7f8-4469-93bd-02b010ff6ae1">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c314d6e2-f443-40cf-93b3-821cde76e03e">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>Код_x0020_инцидента</ColumnID>
+        </Source>
+      </NameColumn>
+      <ValueColumn dwd:design-time-name="8965ac2f-2ee5-4dac-a41e-f6e72b00023c">
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0db2974d-af99-415c-ad56-da7df4ff2048">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>Код_x0020_инцидента</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="14d6a9a6-8fdf-4c1b-896d-a06e53c421b3">
+      <ID>Категория Инцидента</ID>
+      <Name>Категория Инцидента</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9bc8e2fe-4541-48db-9cbd-d18585117798">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c900854e-f8ea-4b36-973a-3b7e9b6481b3">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Категория_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="f2bc555d-56b3-435f-b790-58166e1b18c8">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1523c27f-12ae-4853-aaab-f270426dc594">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Код_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="87860d2e-6846-40ca-b1ec-a0da39e1f3fc">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8e0a49fa-c27c-48ef-a643-d9f7babc2813">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>Категория_x0020_инцидента</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d201af1d-4835-4da9-921b-052c7234df53">
+          <AttributeID>Код Инцидента</AttributeID>
+          <Name>Код Инцидента</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn dwd:design-time-name="c33efdaf-ce42-4ba7-bd24-c20d4f89b012">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a9ae3afc-6f1f-462a-8256-697031b6274d">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>Категория_x0020_инцидента</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="daca323e-47ac-4fe5-a5e4-99775c95053e">
+      <ID>Подкатегория Инцидента</ID>
+      <Name>Подкатегория Инцидента</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f0a9e880-bc99-41ca-a26a-a0373dbf88da">
+          <DataType>WChar</DataType>
+          <DataSize>29</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a3906f90-36ec-49b6-a02f-d30501e8dbdc">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Подкатегория_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="1b18e641-f167-499d-87fb-7e800a355488">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="350e2fb2-6205-405a-9ebd-da8cbc4b7b3f">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Код_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2b2cf23e-cbf5-4d7b-9b98-7ef1bd64912a">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb558ba9-75cb-4421-a243-f6eec2cb4164">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Категория_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bf738a69-487d-4351-bde4-42a5e0b0e497">
+        <DataType>WChar</DataType>
+        <DataSize>29</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="574f693d-3e17-42b0-b430-8a4c5fef5251">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>Подкатегория_x0020_инцидента</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ce4d8f5b-b6a2-458e-bbe2-43297a60f106">
+          <AttributeID>Категория Инцидента</AttributeID>
+          <Name>Категория Инцидента</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn dwd:design-time-name="3d065f5b-c0e6-40e7-8122-30ea5d12b9e4">
+        <DataType>WChar</DataType>
+        <DataSize>29</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="dd0412ec-81f6-44e4-9d07-b66441747151">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>Подкатегория_x0020_инцидента</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b5606c92-2d69-4a0d-9f3e-a661d3dea3e6">
+      <ID>Описание Инцидента</ID>
+      <Name>Описание Инцидента</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="78697c28-eeba-4007-9fbc-748676a072f4">
+          <DataType>WChar</DataType>
+          <DataSize>63</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d25c85b-92db-400e-a8d8-203653f1f639">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Описание_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="6d8a684c-f5a5-4d20-b794-9e14c34acc92">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5ace4e20-3dff-4569-b081-098b7476995d">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Код_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="eaf8f8f0-d5e0-4921-90b9-5d5d5d57ad57">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="765bafec-c54b-45d4-823b-6c84db132ade">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Категория_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="092fbb49-5497-4aa0-8e9a-96f94e48f8f5">
+          <DataType>WChar</DataType>
+          <DataSize>29</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05579974-731d-4273-85e9-4c69a728f583">
+            <TableID>dbo_Incident</TableID>
+            <ColumnID>Подкатегория_x0020_инцидента</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dc929f62-d4c9-4b6e-b5c6-eb9465327fa8">
+        <DataType>WChar</DataType>
+        <DataSize>63</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5379c1c0-a4cc-48ee-a09c-c865d8862572">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>Описание_x0020_инцидента</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="35318fb5-7f75-4238-b7c2-b1b3ac31a580">
+          <AttributeID>Подкатегория Инцидента</AttributeID>
+          <Name>Подкатегория Инцидента</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn dwd:design-time-name="4706d012-e617-40fa-91e6-62d216bec540">
+        <DataType>WChar</DataType>
+        <DataSize>63</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="55b63be7-7093-4917-8700-a059526bd00d">
+          <TableID>dbo_Incident</TableID>
+          <ColumnID>Описание_x0020_инцидента</ColumnID>
+        </Source>
+      </ValueColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="39168a39-b15e-401e-be4d-643347cad5a3">
+      <ID>Иерархия</ID>
+      <Name>Вид инцидента</Name>
+      <Levels>
+        <Level dwd:design-time-name="19e203af-af86-4b80-ac3c-07ee1fda0516">
+          <ID>Код Инцидента</ID>
+          <Name>Код Инцидента</Name>
+          <SourceAttributeID>Код Инцидента</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f196285f-4f9e-48b9-91d1-d2fc47bb36bf">
+          <ID>Категория Инцидента</ID>
+          <Name>Категория Инцидента</Name>
+          <SourceAttributeID>Категория Инцидента</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9bf616dd-0cbf-4663-838d-87f11456913b">
+          <ID>Подкатегория Инцидента</ID>
+          <Name>Подкатегория Инцидента</Name>
+          <SourceAttributeID>Подкатегория Инцидента</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="dc61ef1e-b2a4-4838-a541-1ff28766e698">
+          <ID>Описание Инцидента</ID>
+          <Name>Описание Инцидента</Name>
+          <SourceAttributeID>Описание Инцидента</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

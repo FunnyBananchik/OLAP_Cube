@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "LR3", "LR3.dwproj", "{A5242130-EA7F-4FCC-9F70-A5DF42ABE35D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5242130-EA7F-4FCC-9F70-A5DF42ABE35D}.Development|Default.ActiveCfg = Development
+		{A5242130-EA7F-4FCC-9F70-A5DF42ABE35D}.Development|Default.Build.0 = Development
+		{A5242130-EA7F-4FCC-9F70-A5DF42ABE35D}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69A70B93-94F2-44BF-946D-C4473E8F5A64}
+	EndGlobalSection
+EndGlobal
